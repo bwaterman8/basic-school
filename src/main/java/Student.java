@@ -54,8 +54,15 @@ public class Student {
     public void paidInFull() {
         if (feesPaid == feesTotal) {
             System.out.println("Loans are paid in full!");
+        } else {
+            System.out.println("still must pay");
         }
     }
- }
+
+    @Override
+    public String toString() {
+        return "Student " + getName() + " has to pay $" + getFeesTotal();
+    }
+}
 
 

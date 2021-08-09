@@ -1,7 +1,7 @@
 public class Teacher {
     private int id;
     private String name;
-    private int salary;
+    private static int salary;
 
     public Teacher(int id, String name, int salary) {
         this.id = id;
@@ -27,5 +27,9 @@ public class Teacher {
 
     public int getSalary() {
         return salary;
+    }
+
+    public static void receiveSalary(int salary) {
+        School.updateTotalSpent(salary);
     }
 }

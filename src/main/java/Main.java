@@ -28,6 +28,19 @@ public class Main {
         System.out.println("Toms fees are " + tom.getFeesTotal());
         System.out.println("Toms fees are " + tom.getFeesPaid());
         System.out.println("CAHS has earned a total of $" + CAHS.getTotalIncome());
-
+        lil.payFees(10000);
+        System.out.println("CAHS has earned a total of $" + CAHS.getTotalIncome());
+        System.out.println(lil.getFeesTotal());
+        System.out.println(ron);
+        System.out.println(lil);
+        lil.paidInFull();
+        lil.payFees(20000);
+        System.out.println(lil);
+        lil.paidInFull();
+        System.out.println(lil.getFeesTotal());
+        System.out.println(CAHS.getTotalSpent());
+        lizzy.receiveSalary(lizzy.getSalary());
+        System.out.println(CAHS.getTotalSpent());
+        System.out.println(lizzy.getSalary());
     }
 }

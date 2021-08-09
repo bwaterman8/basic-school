@@ -51,7 +51,7 @@ public class School {
         return totalSpent;
     }
 
-    public void updateTotalSpent(int spending) {
+    public static void updateTotalSpent(int spending) {
         totalIncome -= spending;
     }
 }

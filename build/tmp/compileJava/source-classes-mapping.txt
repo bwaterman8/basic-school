@@ -1,8 +1,8 @@
-Teacher.java
- Teacher
 Student.java
  Student
 Main.java
  Main
 School.java
  School
+Teacher.java
+ Teacher
