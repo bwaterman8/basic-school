@@ -44,6 +44,16 @@ public class Student {
     public int getFeesPaid() {
         return feesPaid;
     }
-}
+
+    public void updateFeesPaid(int fees) {
+        feesPaid += fees;
+    }
+
+    public void paidInFull() {
+        if (feesPaid == feesTotal) {
+            System.out.println("Loans are paid in full!");
+        }
+    }
+ }
 
 
