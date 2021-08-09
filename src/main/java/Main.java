@@ -23,6 +23,10 @@ public class Main {
 
         School CAHS = new School("CAHS", teacherList, studentList);
         System.out.println("CAHS has earned a total of $" + CAHS.getTotalIncome());
+        System.out.println("Toms fees are " + tom.getFeesTotal());
+        tom.payFees(5000);
+        System.out.println("Toms fees are " + tom.getFeesTotal());
+        System.out.println("Toms fees are " + tom.getFeesPaid());
 
     }
 }

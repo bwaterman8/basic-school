@@ -45,8 +45,9 @@ public class Student {
         return feesPaid;
     }
 
-    public void updateFeesPaid(int fees) {
+    public void payFees(int fees) {
         feesPaid += fees;
+        feesTotal-= fees;
     }
 
     public void paidInFull() {
