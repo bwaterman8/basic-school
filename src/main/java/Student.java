@@ -48,6 +48,7 @@ public class Student {
     public void payFees(int fees) {
         feesPaid += fees;
         feesTotal-= fees;
+        School.updateTotalIncome(feesPaid);
     }
 
     public void paidInFull() {

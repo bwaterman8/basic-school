@@ -4,8 +4,8 @@ public class School {
     private String name;
     private List<Teacher> teachers;
     private List<Student> students;
-    private int totalIncome;
-    private int totalSpent;
+    private static int totalIncome;
+    private static int totalSpent;
 
     public School(String name, List<Teacher> teachers, List<Student> students) {
         this.name = name;
@@ -43,8 +43,8 @@ public class School {
         return totalIncome;
     }
 
-    public void updateTotalIncome(int income) {
-        income += income;
+    public static void updateTotalIncome(int income) {
+        totalIncome += income;
     }
 
     public int getTotalSpent() {

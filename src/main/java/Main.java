@@ -27,6 +27,7 @@ public class Main {
         tom.payFees(5000);
         System.out.println("Toms fees are " + tom.getFeesTotal());
         System.out.println("Toms fees are " + tom.getFeesPaid());
+        System.out.println("CAHS has earned a total of $" + CAHS.getTotalIncome());
 
     }
 }

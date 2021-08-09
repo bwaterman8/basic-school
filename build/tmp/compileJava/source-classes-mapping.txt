@@ -2,7 +2,7 @@ Teacher.java
  Teacher
 Student.java
  Student
-School.java
- School
 Main.java
  Main
+School.java
+ School
